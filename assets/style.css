@@ -3,41 +3,78 @@
     box-sizing: border-box;
 }
 
-
 header {
     background-image: url('./images/desktop/image-hero.jpg');
-    width: 90rem;
+    width: 100%;
     height: 40.6rem;
 }
 
-.navbar {
+.navigation {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.logo-img {
-    margin: 4rem 10.3rem;
-}
-
-.nav-items {
-    margin: 4rem 10.3rem;
+    padding: 4rem 10.3rem;
 }
 
 a {
     text-decoration: none;
-    padding-left: 0.6rem;
     color: #FFFFFF;
     font-size: 1rem;
+    padding-left: 1rem;
+    font-family: 'Alata', sans-serif;
     font-weight: 400;
 }
 
-.main-text {
-    margin-top: 7.68rem;
+.nav-content {
     margin-left: 10.3rem;
-    width: 40.6rem;
-    border: 1px solid white;
-    padding: 2.5rem;
+    margin-top: 6rem;
     color: #FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;
+    padding: 2rem;
+    border: 1px solid #FFFFFF;
     font-size: 2rem;
+    width: 40.6rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 70px;
+}
+
+.section-three-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 10.3rem;
+    flex-wrap: wrap;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 10.3rem;
+    gap: 2%;
+}
+
+.photos p {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 22rem 6.9rem 2rem 2.5rem;
+}
+
+.equal {
+    width: 16rem;
+    height: 28rem;
+}
+
+.first-photo {
+    background-image: url('./images/desktop/image-deep-earth.jpg');
+}
+
+.second-photo {
+    background-image: url('./images/desktop/image-night-arcade.jpg');
+}
+
+.third-photo {
+    background-image: url('./images/desktop/image-soccer-team.jpg');
+}
+
+.fourth-photo {
+    background-image: url('./images/desktop/image-grid.jpg');
 }
