@@ -44,6 +44,29 @@ a {
     flex-wrap: wrap;
 }
 
+.section-three-content h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.section-three-content button {
+    width: 9.8rem;
+    height: 2.5rem;
+    background-color: #FFFFFF;
+    border: 0.1rem solid black;
+    color: black;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.section-three-content button:hover {
+    background-color: black;
+    color: #FFFFFF;
+}
+
 .photos {
     display: flex;
     flex-wrap: wrap;
@@ -53,14 +76,16 @@ a {
 
 .photos p {
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 22rem 6.9rem 2rem 2.5rem;
+    margin: 23.5rem 5rem 1rem 2.5rem;
+    text-transform: uppercase;
 }
 
 .equal {
-    width: 16rem;
     height: 28rem;
+    margin-bottom: 2rem;
+    flex-basis: 23.5%;
 }
 
 .first-photo {
@@ -77,4 +102,43 @@ a {
 
 .fourth-photo {
     background-image: url('./images/desktop/image-grid.jpg');
+}
+
+.fith-photo {
+    background-image: url('./images/desktop/image-from-above.jpg');
+}
+
+.sixth-photo {
+    background-image: url('./images/desktop/image-pocket-borealis.jpg');
+}
+
+.seventh-photo {
+    background-image: url('./images/desktop/image-curiosity.jpg');
+}
+
+.eight-photo {
+    background-image: url('./images/desktop/image-fisheye.jpg');
+}
+
+footer {
+    background-color: black;
+    height: 12rem;
+}
+
+.footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 10.3rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem 9.5rem;
+}
+
+.footer-links p {
+    color: white;
 }
